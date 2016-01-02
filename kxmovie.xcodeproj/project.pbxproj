@@ -26,6 +26,8 @@
 		30D051FE1C353DB20000101A /* KxAudioManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D051FC1C353AC90000101A /* KxAudioManagerImpl.m */; };
 		30D051FF1C353DB50000101A /* KxAudioManagerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D051FC1C353AC90000101A /* KxAudioManagerImpl.m */; };
 		30D052001C353DBD0000101A /* KxAudioQueueImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D051F91C353AAB0000101A /* KxAudioQueueImpl.m */; };
+		30D29D9E1C3790DE00BAC6F2 /* KxAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D29D9D1C3790DE00BAC6F2 /* KxAudioSession.m */; };
+		30D29D9F1C37935D00BAC6F2 /* KxAudioSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D29D9D1C3790DE00BAC6F2 /* KxAudioSession.m */; };
 		87E7940916390F6D000A0848 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E7940816390F6D000A0848 /* main.m */; };
 		87E7940F16390F6D000A0848 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E7940E16390F6D000A0848 /* Default.png */; };
 		87E7941116390F6D000A0848 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87E7941016390F6D000A0848 /* Default@2x.png */; };
@@ -179,6 +181,8 @@
 		30D051F91C353AAB0000101A /* KxAudioQueueImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioQueueImpl.m; sourceTree = "<group>"; };
 		30D051FB1C353AC90000101A /* KxAudioManagerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioManagerImpl.h; sourceTree = "<group>"; };
 		30D051FC1C353AC90000101A /* KxAudioManagerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioManagerImpl.m; sourceTree = "<group>"; };
+		30D29D9C1C3790DE00BAC6F2 /* KxAudioSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxAudioSession.h; sourceTree = "<group>"; };
+		30D29D9D1C3790DE00BAC6F2 /* KxAudioSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxAudioSession.m; sourceTree = "<group>"; };
 		34124330B983C9C63FADDFEE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		49D953B9D2DC48FBB580C6AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6AB9BC191288370010CAA1 /* kxmovie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kxmovie-Prefix.pch"; sourceTree = "<group>"; };
@@ -526,6 +530,8 @@
 				30D051F91C353AAB0000101A /* KxAudioQueueImpl.m */,
 				30D051FB1C353AC90000101A /* KxAudioManagerImpl.h */,
 				30D051FC1C353AC90000101A /* KxAudioManagerImpl.m */,
+				30D29D9C1C3790DE00BAC6F2 /* KxAudioSession.h */,
+				30D29D9D1C3790DE00BAC6F2 /* KxAudioSession.m */,
 				87E794201639107F000A0848 /* KxMovieDecoder.h */,
 				87E794211639107F000A0848 /* KxMovieDecoder.m */,
 				87E794221639107F000A0848 /* KxMovieGLView.h */,
@@ -695,6 +701,7 @@
 				87E794281639107F000A0848 /* KxMovieDecoder.m in Sources */,
 				87E794291639107F000A0848 /* KxMovieGLView.m in Sources */,
 				87E7942A1639107F000A0848 /* KxMovieViewController.m in Sources */,
+				30D29D9F1C37935D00BAC6F2 /* KxAudioSession.m in Sources */,
 				30D052001C353DBD0000101A /* KxAudioQueueImpl.m in Sources */,
 				87E7942F1639108E000A0848 /* AppDelegate.m in Sources */,
 				87E794301639108E000A0848 /* MainViewController.m in Sources */,
@@ -709,6 +716,7 @@
 				87FD6182163A75AF0090956E /* KxAudioManager.m in Sources */,
 				87FD6183163A75B10090956E /* KxMovieDecoder.m in Sources */,
 				87FD6184163A75B50090956E /* KxMovieGLView.m in Sources */,
+				30D29D9E1C3790DE00BAC6F2 /* KxAudioSession.m in Sources */,
 				30D051FF1C353DB50000101A /* KxAudioManagerImpl.m in Sources */,
 				87FD6185163A75B70090956E /* KxMovieViewController.m in Sources */,
 				30D051FA1C353AAB0000101A /* KxAudioQueueImpl.m in Sources */,

@@ -30,6 +30,8 @@ typedef void (^KxAudioManagerOutputBlock)(float *data, UInt32 numFrames, UInt32 
 - (BOOL) play;
 - (void) pause;
 
+//  think add stop and close method
+
 @end
 
 @interface KxAudioManager : NSObject

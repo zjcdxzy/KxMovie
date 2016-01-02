@@ -872,7 +872,9 @@ _messageLabel.hidden = YES;
     } else {
         
         [audioManager pause];
-        audioManager.outputBlock = nil;
+        if (audioManager.outputBlock) {
+            audioManager.outputBlock = nil;
+        }
     }
 }
 

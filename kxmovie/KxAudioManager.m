@@ -14,16 +14,23 @@
 
 
 #import "KxAudioManagerImpl.h"
-
+#import "KxAudioQueueImpl.h"
 
 @implementation KxAudioManager
 
 + (id<KxAudioManager>) audioManager
 {
-    static KxAudioManagerImpl *audioManager = nil;
+//    static KxAudioManagerImpl *audioManager = nil;
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        audioManager = [[KxAudioManagerImpl alloc] init];
+//    });
+//    return audioManager;
+    
+    static KxAudioQueueImpl *audioManager = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        audioManager = [[KxAudioManagerImpl alloc] init];
+        audioManager = [[KxAudioQueueImpl alloc] init];
     });
     return audioManager;
 }
