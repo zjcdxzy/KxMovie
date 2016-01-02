@@ -11,7 +11,7 @@
 #import <AudioToolbox/AudioToolbox.h>
 #import <Accelerate/Accelerate.h>
 
-// 思考下继承NSObject 和继承KxAudioManager 之间的区别
+// 继承NSObject 和继承KxAudioManager 之间的区别
 
 @interface KxAudioManagerImpl : NSObject <KxAudioManager> {
     
